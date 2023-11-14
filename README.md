@@ -15,6 +15,7 @@ GitHub Pages 是 GitHub 提供的一项服务，允许你轻松地将你的仓�
 
 步骤 5：在网址后面输入 html的路径，比如 https://jojo1036.github.io/Birthday.github.io/生日.html ，如果在文件夹内的，就在加上文件夹的名称层级，最后enter查看效果
 
+
 首先，在你的项目中创建一个 HTML 文件。你可以将该文件命名为 `index.html`，作为你网站的首页。
 
 ```html
