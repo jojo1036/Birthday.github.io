@@ -1,9 +1,9 @@
-# HappyBirthday
-# GitHub Pages 设置流程
+
+## GitHub Pages 设置流程
 
 GitHub Pages 是 GitHub 提供的一项服务，允许你轻松地将你的仓库发布到互联网上，以展示静态网页。
 
-## 以下是设置 GitHub Pages 的简单步骤：
+### 以下是设置 GitHub Pages 的简单步骤：
 
 步骤 1：创建github的repository，并输入 Birthday.github.io 的格式【严格按照XXX.github.io的格式】
 
