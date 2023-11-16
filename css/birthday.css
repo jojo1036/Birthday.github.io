@@ -7,11 +7,11 @@ body{
 }
 
 .BirthdayCard{
-/*     cursor: pointer; */
+    cursor: pointer;
     position: relative;
     width: 250px;
     height: 350px;
-    cursor: text;
+/*     cursor: text; */
     transform-style: preserve-3d;
     transform:perspective(2500px);
     transition: 1s;
