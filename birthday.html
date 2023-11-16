@@ -24,7 +24,7 @@
     
 </head>
 <body>
-    <div class="BirthdayCard" ontouchstart="activateCard(this)">
+    <div class="BirthdayCard" onclick="toggleCard()">
         <div class="cardfont"><h3 class="Happy">HappyBirthday</h3>
             <div class="balloons">
                 <div class="balloon1"></div>
@@ -42,13 +42,10 @@
         </div>
     </div>
 <script>
-    document.getElementById('birthdayCard').addEventListener('click', function() {
-        activateCard(this);
-    });
-
-    document.getElementById('cardinside').addEventListener('click', function() {
-        activateCard(this);
-    });
+ function toggleCard() {
+            var cardInside = document.querySelector('.BirthdayCard .cardinside');
+            cardInside.style.display = (cardInside.style.display === 'none' || cardInside.style.display === '') ? 'block' : 'none';
+        }
 </script>
 
 </body>
