@@ -16,17 +16,24 @@ body{
     transition: 1s;
 }
 
-.BirthdayCard:hover,
+.BirthdayCard:hover{
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2), 0px 10px 100px rgba(0,0,0,0.4);
+}
 .BirthdayCard:active{
     transform: perspective(2500px) rotate(5deg);
     box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2), 0px 10px 100px rgba(0,0,0,0.4);
 }
 
-.BirthdayCard:hover .cardfont, 
+.BirthdayCard:hover .cardfont{
+    transform: rotateY(-160deg) ;
+}
 .BirthdayCard:active .cardfont{
     transform: rotateY(-160deg) ;
 }
-.BirthdayCard:hover .Happy,
+.BirthdayCard:hover .Happy{
+    visibility: hidden;
+}
 .BirthdayCard:active .Happy{
     visibility: hidden;
 }
